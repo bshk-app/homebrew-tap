@@ -3,7 +3,7 @@ class Zamokctl < Formula
   homepage "https://zamok01.bshk.app"
   url "https://github.com/bshk-app/homebrew-tap/releases/download/zamokctl-1.2.2/zamokctl-1.2.2-macos-arm64.tar.gz"
   version "1.2.2"
-  sha256 "215f784ea9d1a2b4b351f3f035faae04820a79d90c172579946c63c8a8e62be9"
+  sha256 "207bacae19261f5dc03f4489d3aa2bb83c47ab1655301c67ca324703e076d22b"
   license :cannot_represent
 
   depends_on arch: :arm64
