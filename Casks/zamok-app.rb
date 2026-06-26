@@ -1,6 +1,6 @@
 cask "zamok-app" do
   version "1.0.14"
-  sha256 "1e28111ff0aa86aee38e733745a822e060d0e597262ed48e1c91019566da8358"
+  sha256 "8b71ca0a25c29a802bbf73dd56f0d7ee767924f1bc35eb091fac319c6fc4233e"
 
   url "https://github.com/bshk-app/homebrew-tap/releases/download/zamok-app-1.0.14/ZamokApp-1.0.14.zip", verified: "github.com/bshk-app/homebrew-tap/"
   name "ZamokApp"
