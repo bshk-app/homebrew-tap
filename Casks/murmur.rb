@@ -1,8 +1,8 @@
 cask "murmur" do
-  version "0.1.0"
-  sha256 "071fce417448f627cab5120709d3755af1a611d491f2c3030546e9f015dc1ea2"
+  version "0.1.1"
+  sha256 "1a2e8227a65749b5fc6c28548d34cc8ff0d77318ebba9b629e097e4a0dc5af58"
 
-  url "https://github.com/bshk-app/murmur/releases/download/murmur-0.1.0/Murmur-0.1.0.zip"
+  url "https://github.com/bshk-app/murmur/releases/download/murmur-0.1.1/Murmur-0.1.1.zip"
   name "Murmur"
   desc "On-device push-to-talk dictation"
   homepage "https://github.com/bshk-app/murmur"
