@@ -1,6 +1,6 @@
 cask "murmur" do
   version "0.1.0"
-  sha256 "e733fad0428b90e781942233788e9d879371b44cec355a8ae6da168eafbe587c"
+  sha256 "071fce417448f627cab5120709d3755af1a611d491f2c3030546e9f015dc1ea2"
 
   url "https://github.com/bshk-app/murmur/releases/download/murmur-0.1.0/Murmur-0.1.0.zip"
   name "Murmur"
@@ -8,7 +8,7 @@ cask "murmur" do
   homepage "https://github.com/bshk-app/murmur"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Murmur.app"
 
