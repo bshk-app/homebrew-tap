@@ -1,8 +1,8 @@
 cask "agentvault" do
-  version "0.3.0"
-  sha256 "56b6d26d578f84ea81140db4a031f7328d2d85cb9d83ba24189d91d0a831fb93"
+  version "0.3.1"
+  sha256 "fe8f1e1c7c77bc2a1840b9afda6ddab5ffbc3301ff783fbcac16c72f59e02720"
 
-  url "https://github.com/bshk-app/agentvault/releases/download/agentvault-0.3.0/AgentVault-0.3.0.tar.gz"
+  url "https://github.com/bshk-app/agentvault/releases/download/agentvault-0.3.1/AgentVault-0.3.1.tar.gz"
   name "AgentVault"
   desc "Agent-agnostic secret broker for macOS"
   homepage "https://github.com/bshk-app/agentvault"
