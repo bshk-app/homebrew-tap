@@ -1,9 +1,9 @@
 class Zamokctl < Formula
   desc "Drive the Zamok macOS release pipeline from the terminal"
   homepage "https://zamok01.bshk.app"
-  url "https://github.com/bshk-app/homebrew-tap/releases/download/zamokctl-1.2.5/zamokctl-1.2.5-macos-arm64.tar.gz"
-  version "1.2.5"
-  sha256 "e791c21934059830c6e139ac3bd6c03768a7b2cabe5ebc558f3dd6a0bf39f4e2"
+  url "https://github.com/bshk-app/homebrew-tap/releases/download/zamokctl-1.3.0/zamokctl-1.3.0-macos-arm64.tar.gz"
+  version "1.3.0"
+  sha256 "1c86f199844e8faacdf755f679180572a4f4c6d487ed25b2b10e71893f5838d5"
   license :cannot_represent
 
   depends_on arch: :arm64
