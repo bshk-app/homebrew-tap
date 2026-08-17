@@ -13,7 +13,8 @@ cask "containerstack" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :tahoe
+  depends_on formula: "bshk-app/tap/container@1.2.2"
 
   app "ContainerStack.app"
 
