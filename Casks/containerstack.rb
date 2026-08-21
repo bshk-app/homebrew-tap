@@ -2,7 +2,7 @@ cask "containerstack" do
   version "0.1.0"
   sha256 "be0ed1d04297ca0b75fa5cd7723731e77b8fb23e074be07849e749cb91a48ceb"
 
-  url "https://dl.bshk.app/products/containerstack/releases/0.1.0/9a343b6f-8153-4244-944b-7f0d2673c5ef/ContainerStack-0.1.0.dmg"
+  url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
   desc "Native macOS container stack on Apple Container with a Docker-compatible socket"
   homepage "https://containerstack.bshk.app"
