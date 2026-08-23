@@ -1,14 +1,16 @@
+# typed: strict
+
 cask "containerstack" do
-  version "0.1.0"
-  sha256 "be0ed1d04297ca0b75fa5cd7723731e77b8fb23e074be07849e749cb91a48ceb"
+  version "0.2.0"
+  sha256 "98dc8badaff0ded799204895cff7a6dd0ad774c8a87c82b2b0321d0a3d39cb61"
 
   url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
   desc "Native macOS container stack on Apple Container with a Docker-compatible socket"
-  homepage "https://containerstack.bshk.app"
+  homepage "https://containerstack.bshk.app/"
 
   livecheck do
-    url "https://dl.bshk.app/products/containerstack/appcast/stable.xml"
+    url "https://bshk-app.github.io/ContainerStack/appcast/stable.xml"
     strategy :sparkle, &:short_version
   end
 
@@ -21,10 +23,10 @@ cask "containerstack" do
   uninstall quit: "app.bshk.containerstack"
 
   zap trash: [
+    "~/.socktainer",
     "~/Library/Application Support/ContainerStack",
+    "~/Library/LaunchAgents/com.containerstack.runtime.plist",
     "~/Library/Logs/ContainerStack",
     "~/Library/Preferences/app.bshk.containerstack.plist",
-    "~/Library/LaunchAgents/com.containerstack.runtime.plist",
-    "~/.socktainer"
   ]
 end
