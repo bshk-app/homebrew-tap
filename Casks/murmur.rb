@@ -1,22 +1,25 @@
-cask "murmur" do
-  version "0.1.1"
-  sha256 "1a2e8227a65749b5fc6c28548d34cc8ff0d77318ebba9b629e097e4a0dc5af58"
+# typed: strict
 
-  url "https://github.com/bshk-app/murmur/releases/download/murmur-0.1.1/Murmur-0.1.1.zip"
+cask "murmur" do
+  version "0.2.0"
+  sha256 "38077be26de3d0d583f467bdbee2fafa7e1b964eaa7cd4c63ef4d5a1324479cb"
+
+  url "https://github.com/bshk-app/murmur/releases/download/murmur-v#{version}/Murmur-#{version}.dmg"
   name "Murmur"
-  desc "On-device push-to-talk dictation"
+  desc "On-device dictation and live captions"
   homepage "https://github.com/bshk-app/murmur"
+
+  livecheck do
+    url "https://raw.githubusercontent.com/bshk-app/murmur/main/appcast.xml"
+    strategy :sparkle, &:short_version
+  end
 
   auto_updates true
   depends_on macos: :sequoia
 
   app "Murmur.app"
 
-  livecheck do
-    url "https://raw.githubusercontent.com/bshk-app/murmur/main/appcast.xml"
-    strategy :git
-    regex(/^murmur-v?(\d+(?:\.\d+)+)$/i)
-  end
+  uninstall quit: "app.bshk.murmur"
 
   zap trash: [
     "~/Library/Application Support/Murmur",
