@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "murmur" do
-  version "0.2.1"
-  sha256 "348b96a993833d9cfd4c949a153ed82dbcdfe370d413dde9a3b1e8ea1f83d68d"
+  version "0.3.0"
+  sha256 "8e8948643f1fceb70c4936836a02e9e1a8fd811f03c1bb95dae38611a8f8e6bb"
 
   url "https://github.com/bshk-app/murmur/releases/download/murmur-v#{version}/Murmur-#{version}.dmg"
   name "Murmur"
