@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "containerstack" do
-  version "0.5.1"
-  sha256 "4c9613f4fd4b37720d3254568efd52191df1ffe158260f94403e18714e0d347f"
+  version "0.6.0"
+  sha256 "c9e92433ff29da11b347b0a76d33b9f440b5ef188a597b9326eccee9c9c82983"
 
   url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
@@ -16,7 +16,7 @@ cask "containerstack" do
 
   auto_updates true
   depends_on macos: :tahoe
-  depends_on formula: "bshk-app/tap/container@1.2.2"
+  depends_on formula: "bshk-app/tap/container@1.3.1"
 
   app "ContainerStack.app"
 
