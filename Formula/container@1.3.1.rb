@@ -1,3 +1,5 @@
+# typed: strict
+
 class ContainerAT131 < Formula
   desc "Create and run Linux containers using lightweight virtual machines"
   homepage "https://apple.github.io/container/documentation/"
@@ -8,8 +10,6 @@ class ContainerAT131 < Formula
   keg_only :versioned_formula
 
   depends_on arch: :arm64
-  # 1.2.2 allowed Sequoia. Upstream's README at this tag says container is supported on macOS 26
-  # only, since it leans on virtualization and networking changes that shipped there.
   depends_on macos: :tahoe
 
   def install
