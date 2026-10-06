@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "containerstack" do
-  version "0.6.1"
-  sha256 "9ffbb7d04ed604b77f883271b2132af756a4a8f57e4dbe352af3ced0529ab6ee"
+  version "0.7.0"
+  sha256 "4536739d2b8f4e9e0d4f6e63e78956da7aa1a1a36358519df2573c05a91351d5"
 
   url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
@@ -20,7 +20,8 @@ cask "containerstack" do
 
   app "ContainerStack.app"
 
-  uninstall quit: "app.bshk.containerstack"
+  uninstall launchctl: "com.containerstack.runtime",
+            quit:      "app.bshk.containerstack"
 
   zap trash: [
     "~/.containerstack",
