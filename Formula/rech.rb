@@ -1,11 +1,11 @@
 # typed: strict
 
 class Rech < Formula
-  desc "Transcribe recordings with speakers and timings"
+  desc "On-device speech recognition for recordings and dictation"
   homepage "https://tish.bshk.app"
-  url "https://github.com/bshk-app/homebrew-tap/releases/download/rech-0.3.0/rech-0.3.0-macos-arm64.tar.gz"
-  version "0.3.0"
-  sha256 "c736437e21f73a5cb772309c07fd5f9e284c5bc33db9bdebd6747836e5cc57f2"
+  url "https://github.com/bshk-app/homebrew-tap/releases/download/rech-0.4.0/rech-0.4.0-macos-arm64.tar.gz"
+  version "0.4.0"
+  sha256 "65a058c443239d5103e01b72e6ff642077d6b23cfffcf5d6d66afbd5b06a6c35"
   license :cannot_represent
 
   depends_on arch: :arm64
