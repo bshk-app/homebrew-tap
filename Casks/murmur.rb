@@ -1,11 +1,11 @@
 # typed: strict
 
 cask "murmur" do
-  version "0.5.0"
-  sha256 "87846fd01dd6e413f38100185f778c2c66621597671f2246421b0edc28141488"
+  version "0.6.0"
+  sha256 "740842e04581282c2a6d244ec9bf41adc82808f7a4a3301a8cbde349631a4081"
 
-  url "https://github.com/bshk-app/murmur/releases/download/murmur-v#{version}/Murmur-#{version}.dmg"
-  name "Murmur"
+  url "https://github.com/bshk-app/murmur/releases/download/murmur-v#{version}/Murmator-#{version}.dmg"
+  name "Murmator"
   desc "On-device dictation and live captions"
   homepage "https://github.com/bshk-app/murmur"
 
@@ -17,7 +17,7 @@ cask "murmur" do
   auto_updates true
   depends_on macos: :sequoia
 
-  app "Murmur.app"
+  app "Murmator.app"
 
   uninstall quit: "app.bshk.murmur"
 
