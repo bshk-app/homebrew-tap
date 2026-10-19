@@ -1,10 +1,10 @@
 # typed: strict
 
 cask "murmur" do
-  version "0.6.0"
-  sha256 "740842e04581282c2a6d244ec9bf41adc82808f7a4a3301a8cbde349631a4081"
+  version "0.7.0"
+  sha256 "bcdd40a7ec31f79f873dffb98f279885af83a1f9a283dec711b59b3d9bd2bd3a"
 
-  url "https://github.com/bshk-app/murmur/releases/download/murmur-v#{version}/Murmator-#{version}.dmg"
+  url "https://github.com/bshk-app/murmator/releases/download/murmur-v#{version}/Murmator-#{version}.dmg"
   name "Murmator"
   desc "On-device dictation and live captions"
   homepage "https://github.com/bshk-app/murmur"
