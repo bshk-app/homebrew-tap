@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "knowyourlimits" do
-  version "0.2.7"
-  sha256 "1dd04304d544279de940b83021b92b7ae900be11c1c53977bd378c336f7e3646"
+  version "0.2.8"
+  sha256 "ed7953e45e28c5f66e843051a909e887c3355319f2b7994e3cfb73308accec9f"
 
   url "https://github.com/bshk-app/KnowYourLimits/releases/download/v#{version}/KnowYourLimits-#{version}-macos-arm64.dmg"
   name "KnowYourLimits"
