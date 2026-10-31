@@ -1,8 +1,8 @@
 cask "undersong" do
-  version "0.1.21"
-  sha256 "c878997b9c34449d6d7e1b7255f2d82b0a2ea5d1f7d75188d7b4b323a6fd8a4f"
+  version "0.2.0"
+  sha256 "0a668ae3e92edb991eae5d91f2e5c32993b51d427b141a4d31fd7d8f370a3b8a"
 
-  url "https://dl.bshk.app/products/undersong/releases/#{version}/df7f1664-bca5-45f7-aba9-c6f8401e4800/Undersong-#{version}.dmg"
+  url "https://dl.bshk.app/products/undersong/releases/#{version}/117f11c5-1e24-4e81-843e-7b32ff415f66/Undersong-#{version}.dmg"
   name "Undersong"
   desc "Background music written on your Mac"
   homepage "https://undersong.bshk.app"
