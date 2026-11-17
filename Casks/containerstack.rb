@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "containerstack" do
-  version "0.9.0"
-  sha256 "a7c0a3a1b12dd1c3dd79faaa37d0bf65dcfc1717528aec8ea0f18549663d9137"
+  version "0.10.0"
+  sha256 "1ff8ff4dfe67199604181bb94f5c8e83baa4dc7d7691283254d40a7c641c0a1f"
 
   url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
@@ -19,6 +19,7 @@ cask "containerstack" do
   depends_on macos: :tahoe
 
   app "ContainerStack.app"
+  binary "#{appdir}/ContainerStack.app/Contents/MacOS/cstack"
 
   uninstall launchctl: "com.containerstack.runtime",
             quit:      "app.bshk.containerstack"
