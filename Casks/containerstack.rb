@@ -1,8 +1,8 @@
 # typed: strict
 
 cask "containerstack" do
-  version "0.11.0"
-  sha256 "43fa8591e82d47a36d566d71f8fccde06671df141621d7b1eb699bb8e723a33a"
+  version "0.12.0"
+  sha256 "8c0ad78228f74554bf919af5c9da44d4a45dbfec7c3cdeb2c19590d170ab8103"
 
   url "https://github.com/bshk-app/ContainerStack/releases/download/v#{version}/ContainerStack-#{version}.dmg"
   name "ContainerStack"
